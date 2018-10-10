@@ -4,6 +4,10 @@ var chocolateBars = [
   "kitkat",
   "skittles"];
   
-function addElementToBeginningOfArray(array,toAdd) {
-  
+function addElementToBeginningOfArray(array,elementToAdd) {
+  return [elementToAdd, ...array];
+}
+
+function destructivelyAddElementToBeginningOfArray(array,elementToAdd) {
+  return array = [elementToAdd,...array];
 }
