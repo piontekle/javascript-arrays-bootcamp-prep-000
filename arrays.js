@@ -11,3 +11,11 @@ function addElementToBeginningOfArray(array,elementToAdd) {
 function destructivelyAddElementToBeginningOfArray(array,elementToAdd) {
   return array = [elementToAdd,...array];
 }
+
+function addElementToBeginningOfArray(array,elementToAdd) {
+  return [...array, elementToAdd];
+}
+
+function destructivelyAddElementToBeginningOfArray(array,elementToAdd) {
+  return array = [...array, elementToAdd];
+}
