@@ -19,3 +19,7 @@ function addElementToEndOfArray(array,elementToAdd) {
 function destructivelyAddElementToEndOfArray(array,elementToAdd) {
   return array = [...array, elementToAdd];
 }
+
+function accessElementInArray (array, index) {
+  return 
+}
